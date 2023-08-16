@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: #a2a8d3;
+  color: white;
+  margin: auto;
+}
+
+.actionbuttons {
+  display: inline-block;
+  padding: 12px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+  margin: 5px;
+}
+
+.actionbuttons:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.products {
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px;
+  border: 12px;
+  margin: 12px;
+}
+
+.label {
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 15px;
+  border: 50px;
+  margin-bottom: 10px;
+}
+
+.label>input {
+  border-radius: 30px;
+}
